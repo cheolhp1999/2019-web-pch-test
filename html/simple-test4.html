@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Cycle sales</title>
+	<link rel="stylesheet" href="../css/fa.min.css">
+	<link rel="stylesheet" href="../css/bootstrap.min.css">
+	<link rel="stylesheet" href="../css/base.bootstrap.css">
+	<link rel="stylesheet" href="../css/animate.css">
+	<link rel="stylesheet" href="../css/simple-base.css">
+	<link rel="stylesheet" href="../css/simple-test4.css">
+	<script src="../js/jquery-3.4.1.min.js"></script>
+	<script src="../js/bootstrap.min.js"></script>
+	<script src="../js/popper.min.js"></script>
+	<script src="../js/wow.min.js"></script>
+	<script src="../js/imagesloaded.pkgd.min.js"></script>
+
+</head>
+<body>
+<!-- site header의 시작 -->
+<header class="top-wrap w-100">
+<!-- top wrap & top menu-bar & title image are corded in header -->
+<div class="top-menuBar w-100 d-flex align-items-center position-relative">
+		<!-- top bar에서 fas icon -->
+	 <div class="fas-wrap d-flex">
+		<li class="fas-item position-relative px-1 w-100">
+			<a href="#" msg-toggle ="tooltip" title="settings" class="bt-tooltip">
+				<i class="fas fa-adjust mx-1 text-secondary position-absolute"></i>
+			</a>
+		</li>
+		<li class="fas-item position-relative px-1 w-100">
+			<i class="fas fa-user mx-1  position-absolute"></i>
+			<div class="tip-toggle">My Account</div>
+		</li>
+		<li class="fas-item position-relative px-1 w-100">
+			<a href="#" msg-toggle ="tooltip" title="My Question" class="bt-tooltip">
+				<i class="fas fa-person-booth mx-1 text-secondary position-absolute"></i>
+			</a>
+		</li>
+		<li class="fas-item position-relative px-1 w-100">
+			<a href="#" msg-toggle ="tooltip" title="Cart Bag" class="bt-tooltip">
+				<i class="fas fa-shopping-bag mx-1 text-secondary position-absolute"></i>
+			</a>
+		</li>
+		<li class="fas-item position-relative px-1 w-100">
+			<a href="#" msg-toggle ="tooltip" title="Search" class="bt-tooltip">
+				<i class="fas fa-search mx-1 text-secondary position-absolute"></i>
+			</a>
+		</li>
+	</div>
+	<!-- top bar의  menu -->
+	<div class="navi pt-serif text-light position-relative">
+		<li class="nav px-2 py-1 position-relative">!BUY THEME
+			<div class="top-subMenu">
+					<div class="top-subMenu-column">
+
+					</div>
+					<div class="top-subMenu-column"></div>
+					<div class="top-subMenu-column"></div>
+			</div>
+		</li>
+		<li class="nav px-2 py-1 position-relative">COLLECTION
+			<div class="top-subMenu">
+					<div class="top-subMenu-column"></div>
+					<div class="top-subMenu-column"></div>
+			</div>
+		</li>
+		<li class="nav px-2 py-1 position-relative">PORTFOLIO
+			<div class="top-subMenu">
+					<div class="top-subMenu-column"></div>
+					<div class="top-subMenu-column"></div>
+			</div>
+		</li>
+		<li class="nav px-2 py-1 position-relative">BLOG
+			<div class="top-subMenu">
+					<div class="top-subMenu-column"></div>
+					<div class="top-subMenu-column"></div>
+			</div>
+		</li>
+		<li class="nav px-2 py-1 position-relative">PAGES
+			<div class="top-subMenu">
+					<div class="top-subMenu-column"></div>
+					<div class="top-subMenu-column"></div>
+			</div>
+		</li>
+		<li class="nav px-2 py-1 position-relative">SHOP
+			<div class="top-subMenu">
+					<div class="top-subMenu-column"></div>
+					<div class="top-subMenu-column"></div>
+			</div>
+		</li>
+		<li class="nav px-2 py-1 position-relative">HOME
+			<div class="top-subMenu">
+					<div class="top-subMenu-column"></div>
+					<div class="top-subMenu-column"></div>
+			</div>
+		</li>
+		<div class="logo position-relative px-2">
+			<img src="../img/logo.png" alt="logo" class="logo-img mw-100">
+			<div class="menuBars m-white"><i class="fas fa-bars"></i></div>
+		</div>
+	</div>
+</div>
+<div class="addBar overflow-hidden">
+    <li class="Bar d-flex"><img src="../img/logo.png" class="mw-100 w-80 h-80"></li>
+</div>
+</header>
+<!-- main screen -->
+<!-- 슬라이드 방식일 경우
+	 <main style="width: 100%; top: 3.125rem; background-color: #1a1a1a;"> -->
+<main class="tlt-wrap my-5 overflow-hidden" style="top: 3.125rem;">
+  <!-- 슬라이드 방식으로 표지 display시
+		<div class="slides position-relative d-flex justify-content-between"></div> -->
+		<div class="tlt position-relative"></div>
+		<div class="tlt-dot f-2 text-center"></div>
+</main>
+
+<!-- 
+
+<main class="mainPic position-relative pt-serif">
+<div class="mainSec overflow-hidden">
+	<img src="../img/표지1.png" alt="mainPic" class="mainPic">
+	<img src="../img/표지1.png" alt="mainPic1" class="mainPic1 wow fadeIn overide" data-wow-duration="1s">
+	<div class="picText position-absolute w-100 text-center wow bounceInUp" data-wow-delay="0.7s" data-wow-duration="0.5s">
+		<h3>SALE FOR A WEEK</h3>
+		<h1>FIND YOUR</h1>
+		<h1>PERFECT BIKE!</h1>
+		<h4>Many skins, Powerful features, great support, exclusive offer</h4>
+		<br>
+		<button id="shopNow" class="w-100 bg-danger">shop Now!</button>
+	</div>
+	<img src="../img/표지2.png" alt="mainPic2" class="mainPic2 wow fadeIn overide" data-wow-delay="0.9s">
+	<div class="picText position-absolute w-100 text-center wow bounceInUp">
+		<h3>SALE FOR A WEEK</h3>
+		<h1>FIND YOUR<br>PERFECT BIKE!</h1>
+		<h4>Many skins, Powerful features, great support, exclusive offer</h4>
+		<br>
+		<button id="shopNow" class="w-100 bg-danger">shop Now!</button>
+	</div>
+</div>
+</main> -->
+
+<!-- site section 들 -->
+<section>
+
+
+
+
+
+
+</section>
+
+
+
+
+
+
+<!-- site article 들 -->
+<article>
+
+
+</article>
+
+
+
+
+
+<!-- site aside (필요시 사용) -->
+<aside>
+
+
+</aside>
+
+
+
+
+
+<!-- site footer의 시작 -->
+<footer>
+
+
+</footer>
+
+
+
+
+<!-- site addressing -->
+<address>
+
+
+</address>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</body>
+
+
+
+
+<script src="../js/simple-test4.js" alt="Program End"></script>
+</html>

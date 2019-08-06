@@ -1,0 +1,56 @@
+@charset 'utf-8';
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic|Nanum+Myeongjo|Noto+Sans+KR|Sunflower:300&display=swap');
+
+html, body, div, h1, h2, h3, h4, h5, h6, p, ol, ul, dl, dt, dd, li, form, select, input, button  {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+ }
+ 
+ ol, ul, dl, dt, dd, li {list-style : none;}
+ th, td {vertical-align: middle !important;}
+ 
+ html, body {
+	font-family: Nanum+Gothic Noto+Sans+KR sans-serif;
+	font-size: 16pt;
+	color: #009688;
+	background-color: #ffffff;
+	}
+
+input, button, img {
+	border: 0; margin: 0; padding: 0;
+}
+
+img {display: block;}
+
+.text-primary {color: text-body;}
+.all-center-head {display:inline-block; display:flex; position:relative}
+.all-center-body {justify-content: center; vertical-align: center; text-align: center; align-items: center; text-justify: auto; box-sizing: border-box;}
+.all-center-foot {margin: auto; z-index: 9999; position: absolute;}
+
+.fl {float:left; margin: 0 auto;}
+.fr {float:right; margin: 0 auto;}
+.fc {display: flex; margin: 0 auto;}
+.fc > div{flex-grow: 1; border: 1px solid #111; justify-content: center;}
+
+.img {width: 100%;}
+.clear::after {display: block; content: " "; clear: both;}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

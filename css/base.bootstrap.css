@@ -1,0 +1,6 @@
+body {height: 10000px;}
+ul, ol, li, dl {list-style: none; margin:0; padding: 0;}
+th, td {vertical-align:middle !important;}
+.text-primary {color: #061e5f !important;}
+/* .text-primary {color: text-body;} */
+/* .btn {border-radius: 0;} */

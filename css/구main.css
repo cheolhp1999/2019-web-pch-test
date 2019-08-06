@@ -1,0 +1,12 @@
+html, body {width: 100%; height: 100%; background-color: #ddd;}
+.m-top {max-width: 1900px; width: 100%; padding: 10px; margin: 0 auto;}
+.m-bar {float:left; width: 100%; height: 55px; position: fixed;}
+.m-white {background-color: #ddd; color: #333;} 
+.m-font {font-family: 'Times New Roman', Times, serif; font-size: 20pt; font-style: oblique;}
+.m-lbutton {float:left; padding: 20px; text-align: center; cursor: grabbing;}
+.m-lbutton:hover {background-color: #333; color: #ddd; }
+.m-rbutton {float:right; padding: 10px; text-align: center; cursor: grabbing;}
+.m-rbutton:hover {background-color: #333; color: #ddd; }
+
+.m-container {float:left; max-width: 1500px; margin: 0 auto;}
+
